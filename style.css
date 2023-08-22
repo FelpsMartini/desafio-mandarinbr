@@ -1,0 +1,324 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(231, 231, 231);
+    margin: 0;
+}
+
+.color{
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.header-image {
+    width: 100%;
+    height: auto; 
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.main-image {
+    width: 1000px;
+    max-width: 100%; 
+    height: auto;
+}
+
+.main-content h1{
+    font-size: 2.5em;
+    margin: 20px 20px 10px 0;
+    
+}
+
+.main-content h3{
+    font-size: 1.2em;
+    margin: 0px 20px 30px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+.main-content p{
+    font-size: 0.9em;
+    margin: 10px 20px 10px 0;
+    font-style: italic;
+    color: rgba(137, 140, 143, 0.938);
+
+}
+
+.main-content .detalhe{
+    margin: 0px 20px 50px 0;
+    width: 45%;
+}
+
+section{    
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+article .counteudo-img1{
+    width: 450px;
+    height: 300px;
+}
+
+article .counteudo-img2{
+    width: 450px;
+    height: 300px;
+}
+
+.counteudo_dois{
+    margin-left: 100px;
+}
+
+section p{
+    font-size: 0.9em;
+    font-style: italic;
+    color: rgba(137, 140, 143, 0.938);
+
+}
+
+article .detalhe2{
+    width: 35%;
+}
+
+.section_rodape{
+    width: 100%;
+}
+
+.img_footer{
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(231, 231, 231);
+}
+
+
+footer p{
+    color: rgba(65, 69, 73, 0.938);
+    margin: auto;
+}
+
+footer .p1{
+    margin-top: 30px;
+}
+
+
+footer .p2{
+    margin-bottom: 30px;
+}
+
+footer a{
+    color: rgba(65, 69, 73, 0.938);
+}
+
+/* 1200px */
+
+@media screen and (max-width: 1200px) {
+   body{
+    width: 1024px;
+   }
+   
+   .color{
+    width: 1024px;
+   }
+    .header-image {
+        width: 1024px;
+        height: auto; 
+    }
+
+    section {
+        width: 1024px;
+    }
+
+    }
+
+/* 768px */
+
+@media screen and (max-width: 768px) {
+
+    body{
+        width: 750px;
+       }
+       
+       .color{
+        width: 750px;
+       }
+        .header-image {
+            width: 750px;
+            height: auto; 
+        }
+
+        section{    
+            max-width: 750px;
+            margin: auto;
+        }
+        
+        article{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+        
+        }
+        
+        article .counteudo-img1{
+            width: 350px;
+            height: 200px;
+        }
+        
+        article .counteudo-img2{
+            width: 350px;
+            height: 200px;
+        }
+        
+        .counteudo_dois{
+            margin-left: 40px;
+            margin-right: 0;
+        }
+        
+        section p{
+            font-size: 0.9em;
+            font-style: italic;
+            color: rgba(137, 140, 143, 0.938);
+        
+        }
+        
+        article .detalhe2{
+            width: 35%;
+        }
+ 
+     }
+ 
+ /* 600px */
+
+@media screen and (max-width: 600px){
+    body{
+        width: 600px;
+       }
+       
+       .color{
+        width: 600px;
+       }
+        .header-image {
+            width: 600px;
+            height: auto; 
+        }
+
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        section{    
+            display: flex;
+            max-width: 600px;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        article{
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        
+        }
+        
+        article .counteudo-img1{
+            width: 400px;
+            height: 300px;
+        }
+        
+        article .counteudo-img2{
+            width: 400px;
+            height: 300px;
+            margin-top: 20px;
+        }
+        .counteudo_dois{
+            margin: 0;
+        }
+        
+
+        
+        section p{
+            font-size: 0.9em;
+            font-style: italic;
+            color: rgba(137, 140, 143, 0.938);
+        
+        }
+
+}
+
+ /* 400px */
+
+ @media screen and (max-width: 400px){
+    body{
+        width: 400px;
+       }
+       
+       .color{
+        width: 400px;
+       }
+       .header-image {
+        width: 400px;
+        height: auto; 
+    }
+
+    .main-content h1{
+        font-size: 2em;
+    }
+
+    section{    
+        display: flex;
+        max-width: 400px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer p{
+        font-size: 0.7em;
+    }
+ }
